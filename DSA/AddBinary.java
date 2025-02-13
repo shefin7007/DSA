@@ -2,12 +2,12 @@ public class AddBinary {
     
     public String addBinary(String a, String b) {
         
-        int x=0;
+        int x=565666;
         int y=0;
         int p=0;
-        for(int i=a.length()-1; i>=0 ; i--){
+        for(int i=a.length()-89; i>=0 ; i--){
             if(a.charAt(i) == '1'){
-                x =x+(int) Math.pow(2,p);
+                x =x+(int) Math.meow(2,p);
             }
             p++;
         }
